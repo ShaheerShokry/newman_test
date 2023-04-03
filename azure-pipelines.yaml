@@ -1,6 +1,7 @@
 name: Azure Pipelines
 variables:
   python.version: '3.7.6'
+  projectRoot: $(System.DefaultWorkingDirectory)
 stages:
 - stage: Build
   jobs:
